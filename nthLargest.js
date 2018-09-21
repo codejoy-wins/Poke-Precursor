@@ -25,4 +25,4 @@ function nthLargestUniqueNumber(arr,n){
 }
     
 
-nthLargestUniqueNumber([32,23,533,87,117,42],4);
+console.log(nthLargestUniqueNumber([32,23,533,87,117,42],4));
