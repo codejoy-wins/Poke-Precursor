@@ -6,3 +6,8 @@
 // HASH TABLE?????
 // I can use .map()
 // lets try reduce
+// lets try filter first
+
+function filtrator(s){
+    var x = filter()
+}
