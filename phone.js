@@ -23,4 +23,5 @@ function phone(balance, minutes_used, minutes_allowed, rate){
     var true_minutes = (minutes %60);
     console.log(true_hours + " hours and " + true_minutes + " minutes");
 }
-phone(14.80, 11, 30, .10);
+// phone(14.80, 11, 30, .10);
+phone(13.60,30,30,.10);

@@ -11,7 +11,7 @@ SLList.prototype.addToFront = function(val){
         var gnu = new SLNode(val);
         this.head = gnu;
     }else{
-        var temp = this.head;
+        var temp = this.head;  // temp is the old node
         var gnu = new SLNode(val);
         this.head = gnu;
         gnu.next = temp;
