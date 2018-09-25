@@ -72,7 +72,6 @@
     main(data);
     var data2 = [['z','q','r'],['z','b','t'],['b','f','q'], ['l','o','j']];
     main(data2);
-    // at some point I have to remove each array and calculate number of dupes
 
     //caveats -- the data must be sets which are defined as unique lists.  No repetition per list.  
 
@@ -82,4 +81,5 @@
 
     // Thank you, Nathan, for the interview.  
 
-    // if I'm basing it off the first one not getting thrown out, I could maybe do a seperate check for the first one being thrown out by using shift() instead of pop().
+    // if I'm basing it off the first one not getting thrown out, I could maybe do a seperate check for the first one being thrown out by using shift() instead of pop(), but I would have to keep track of the values and compare.
+    // This really is a tricky question.  The dupes have to be based off of something, so I might have to run the whole process for each item in the OG array!  Then find the minimum of all the minimums.  That's so many for loops! lol.
