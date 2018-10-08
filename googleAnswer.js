@@ -69,12 +69,13 @@
     }
     var data = [['a','b','c'],['b','a','c'],['e','f','k'], ['b','z','c']];
     // should return [['a','b','c'],['b','a','c'],['b','z','c']]  and exclude ['e','f','k']
-    main(data);
+    // main(data);
     var data2 = [['z','q','r'],['z','b','t'],['b','f','q'], ['l','o','j']];
-    main(data2);
+    // main(data2);
     var data3 = [['a','j','k'],['m','k','u'],['b','f','d'], ['h','t','j']];
-    main(data3);
-
+    // main(data3);
+    var data4 = [['a','b','c'],['b','a','c'],['e','f','k'], ['b','z','c'],['z','q','r'],['z','b','t'],['b','f','q'], ['l','o','j'],['a','j','k'],['m','k','u'],['b','f','d'], ['h','t','j']];
+    main(data4);
     //caveats -- the data must be sets which are defined as unique lists.  No repetition per list.  
 
     // this is based off of the first array... the first array is immune to duplicates because it has nothing to compare to.
